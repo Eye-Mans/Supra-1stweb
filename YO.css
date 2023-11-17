@@ -1,0 +1,107 @@
+
+.iman{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    background-image: url("https://i.pinimg.com/originals/a8/0e/58/a80e587498fbe1ce8eae84f9533133c0.gif");
+    background-repeat: repeat-x;
+    background-color:grey;
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    color:rgb(255, 255, 255)
+
+}
+.about {
+    background-color: #333333;
+    color:#ffffff;
+    font-size: large;
+    padding: 40px 0;
+    text-align: center;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 1px;
+}
+nav {
+    background-color: #000000;
+    color: #f9f5f5;
+    text-align: center;
+    font-style: italic;
+    padding: 5px 0;
+  }
+
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .yomamma {
+    flex-basis: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+.content {
+    flex-basis: 70%;
+    background-image: url(https://i.pinimg.com/originals/c9/e7/06/c9e7061ea0791259d6a4524076383eb7.gif);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer {
+    background-color: #393a3b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .mamen{
+   font-style: italic;
+   color:white;
+   font-size: 75px;
+  }
+  .aside {
+    flex-basis: 25%;
+    background-color: #8a8888;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .changing-text {
+    font-size: 24px;
+    color: #333;
+    animation: colorChange 5s infinite alternate;
+  }
+
+  @keyframes colorChange {
+    0% {
+      color: #ffffff;
+    }
+    35% {
+      color: #e74c3c;
+    }
+    45%{
+        color:green;
+    }
+    50%{
+        color:blue;
+    }
+    65%{
+        color:purple
+    }
+    75%{
+        color:pink;
+    }
+    100%{
+        color:yellow;
+    }
+  }
+
+
+  
+
